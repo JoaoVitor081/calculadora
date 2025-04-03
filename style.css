@@ -1,9 +1,9 @@
+
 .calculadora{
+    margin-top: 50px;
     width: 300px;
     height: 500px;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(52, 32, 32);
     margin-left: 450px;
     border-radius: 20px;
     box-shadow: 32px 35px 69px -8px rgba(0,0,0,0.75);

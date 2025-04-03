@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
             <p id="calculo"></p>
             <h3 id="resultado"></h3>
         </div>
-        <button class="simbolo" onclick="clear()">AC</button>
-        <button class="simbolo" onclick="wipe()">.</button>
+        <button class="simbolo" onclick="clearDisplay()">AC</button>
+        <button class="simbolo" onclick="backspace()">⌫</button>
         <button class="simbolo" onclick="show('%')">%</button>
         <button class="simbolo1" id="dividir" onclick="show('/')">÷</button>
 
@@ -32,11 +32,10 @@
         <button class="numero" onclick="show('3')">3</button>
         <button class="simbolo1" id="somar" onclick="show('+')">+</button>
 
-        <div><button class="numero" onclick="show()"><img src="calculadora-removebg-preview.png" alt=""></button></div>
+        <div><button class="numero" onclick=""></button></div>
         <button class="numero1" onclick="show('0')">0</button>
         <button class="numero1" onclick="show(',')">,</button>
         <button class="simbolo2" onclick="resultado()">=</button>
-        
     </div>
     
     <script src="script.js"></script>
